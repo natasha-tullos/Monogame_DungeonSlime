@@ -6,13 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "DungeonSlime/1.0.0": {
+      "MonoGameLibrary/1.0.0": {
         "dependencies": {
-          "MonoGame.Framework.DesktopGL": "3.8.4.1",
-          "MonoGameLibrary": "1.0.0"
+          "MonoGame.Framework.DesktopGL": "3.8.4.1"
         },
         "runtime": {
-          "DungeonSlime.dll": {}
+          "MonoGameLibrary.dll": {}
         }
       },
       "MonoGame.Framework.DesktopGL/3.8.4.1": {
@@ -113,19 +112,11 @@
             "fileVersion": "0.10.4.0"
           }
         }
-      },
-      "MonoGameLibrary/1.0.0": {
-        "runtime": {
-          "MonoGameLibrary.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
   "libraries": {
-    "DungeonSlime/1.0.0": {
+    "MonoGameLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -157,11 +148,6 @@
       "sha512": "sha512-WYnil3DhQHzjCY0dM9I2B3r1vWip90AOuQd25KE4NrjPQBg0tBJFluRLm5YPnO5ZLDmwrfosY8jCQGQRmWI/Pg==",
       "path": "nvorbis/0.10.4",
       "hashPath": "nvorbis.0.10.4.nupkg.sha512"
-    },
-    "MonoGameLibrary/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

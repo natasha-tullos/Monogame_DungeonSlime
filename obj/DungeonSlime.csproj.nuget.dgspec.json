@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/natrobarge/Desktop/dev/My_First_2D_Game/DungeonSlime/DungeonSlime.csproj": {}
+    "/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/DungeonSlime.csproj": {}
   },
   "projects": {
-    "/Users/natrobarge/Desktop/dev/My_First_2D_Game/DungeonSlime/DungeonSlime.csproj": {
+    "/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/DungeonSlime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/natrobarge/Desktop/dev/My_First_2D_Game/DungeonSlime/DungeonSlime.csproj",
+        "projectUniqueName": "/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/DungeonSlime.csproj",
         "projectName": "DungeonSlime",
-        "projectPath": "/Users/natrobarge/Desktop/dev/My_First_2D_Game/DungeonSlime/DungeonSlime.csproj",
+        "projectPath": "/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/DungeonSlime.csproj",
         "packagesPath": "/Users/natrobarge/.nuget/packages/",
-        "outputPath": "/Users/natrobarge/Desktop/dev/My_First_2D_Game/DungeonSlime/obj/",
+        "outputPath": "/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/natrobarge/.nuget/NuGet/NuGet.Config"
@@ -25,7 +25,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/MonoGameLibrary/MonoGameLibrary.csproj": {
+                "projectPath": "/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/MonoGameLibrary/MonoGameLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -71,6 +75,82 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[9.0.11, 9.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.11, 9.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/MonoGameLibrary/MonoGameLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/MonoGameLibrary/MonoGameLibrary.csproj",
+        "projectName": "MonoGameLibrary",
+        "projectPath": "/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/MonoGameLibrary/MonoGameLibrary.csproj",
+        "packagesPath": "/Users/natrobarge/.nuget/packages/",
+        "outputPath": "/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/MonoGameLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/natrobarge/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MonoGame.Framework.DesktopGL": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.8.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
               "version": "[9.0.11, 9.0.11]"
             },
             {
