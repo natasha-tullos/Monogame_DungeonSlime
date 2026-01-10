@@ -10,11 +10,11 @@ public class Game1 : Core
 {
     private Texture2D _logo;
 
-    // texture region that defines the slime sprite in the atlas.
-    private TextureRegion _slime;
+    // Defines the slime sprite.
+    private Sprite _slime;
 
-    // texture region that defines the bat sprite in the atlas.
-    private TextureRegion _bat;
+    // Defines the bat sprite.
+    private Sprite _bat;
 
     public Game1() : base("Dungeon Slime", 1280, 720, false)
     {
@@ -36,11 +36,13 @@ public class Game1 : Core
         // Create the texture atlas from the XML configuration file
         TextureAtlas atlas = TextureAtlas.FromFile(Content, "images/atlas-definition.xml");
 
-        // retrieve the slime region from the atlas.
-        _slime = atlas.GetRegion("slime");
+        // Create the slime sprite from the atlas.
+        _slime = atlas.CreateSprite("slime");
+        _slime.Scale = new Vector2(4.0f, 4.0f);
 
-        // retrieve the bat region from the atlas.
-        _bat = atlas.GetRegion("bat");
+        // Create the bat sprite from the atlas.
+        _bat = atlas.CreateSprite("bat");
+        _bat.Scale = new Vector2(4.0f, 4.0f);
 
         base.LoadContent();
     }
@@ -80,12 +82,12 @@ public class Game1 : Core
             0.0f                // layerDepth, the depth for which the texture is rendered, only applies with "SpriteSortMode.FrontToBack" or "SpriteSortMode.BackToFront"
         );
 
-        // Draw the slime texture region at a scale of 4.0
-        _slime.Draw(SpriteBatch, Vector2.Zero, Color.White, 0.0f, Vector2.One, 4.0f, SpriteEffects.None, 0.0f);
+        // Draw the slime sprite.
+        _slime.Draw(SpriteBatch, Vector2.Zero);
 
-        // Draw the bat texture region 10px to the right of the slime at a scale of 4.0
-        _bat.Draw(SpriteBatch, new Vector2(_slime.Width * 4.0f + 10, 0), Color.White, 0.0f, Vector2.One, 4.0f, SpriteEffects.None, 1.0f);
-
+        // Draw the bat sprite 10px to the right of the slime.
+        _bat.Draw(SpriteBatch, new Vector2(_slime.Width + 10, 0));
+        
         // Always end the sprite batch when finished.
         SpriteBatch.End();
 
