@@ -34,3 +34,5 @@
 /Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/obj/Debug/net9.0/DungeonSlime.pdb
 /Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/obj/Debug/net9.0/DungeonSlime.genruntimeconfig.cache
 /Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/obj/Debug/net9.0/ref/DungeonSlime.dll
+/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/bin/Debug/net9.0/Content/images/atlas.xnb
+/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/bin/Debug/net9.0/Content/images/atlas-definition.xml
