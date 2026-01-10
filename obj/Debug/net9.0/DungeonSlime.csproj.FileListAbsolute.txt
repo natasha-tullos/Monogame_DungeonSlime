@@ -1,3 +1,4 @@
+/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/bin/Debug/net9.0/Content/images/logo.xnb
 /Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/bin/Debug/net9.0/DungeonSlime
 /Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/bin/Debug/net9.0/DungeonSlime.deps.json
 /Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/bin/Debug/net9.0/DungeonSlime.runtimeconfig.json
@@ -16,6 +17,7 @@
 /Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/bin/Debug/net9.0/runtimes/linux-x64/native/libopenal.so
 /Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/bin/Debug/net9.0/runtimes/osx/native/libopenal.dylib
 /Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/bin/Debug/net9.0/runtimes/win-x64/native/openal.dll
+/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/bin/Debug/net9.0/runtimes/linux-arm64/native/libSDL2-2.0.so.0
 /Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/bin/Debug/net9.0/runtimes/linux-x64/native/libSDL2-2.0.so.0
 /Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/bin/Debug/net9.0/runtimes/osx/native/libSDL2-2.0.0.dylib
 /Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/bin/Debug/net9.0/runtimes/win-x64/native/SDL2.dll

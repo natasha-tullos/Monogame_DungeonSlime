@@ -50,11 +50,11 @@
           "dependencies": {
             "MonoGame.Content.Builder.Task": {
               "target": "Package",
-              "version": "[3.8.*, )"
+              "version": "[3.8.5-preview.2, )"
             },
             "MonoGame.Framework.DesktopGL": {
               "target": "Package",
-              "version": "[3.8.*, )"
+              "version": "[3.8.5-preview.2, )"
             }
           },
           "imports": [

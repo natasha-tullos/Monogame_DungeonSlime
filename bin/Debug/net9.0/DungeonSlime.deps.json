@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v9.0": {
       "DungeonSlime/1.0.0": {
         "dependencies": {
-          "MonoGame.Framework.DesktopGL": "3.8.4.1",
+          "MonoGame.Framework.DesktopGL": "3.8.5-preview.2",
           "MonoGameLibrary": "1.0.0"
         },
         "runtime": {
           "DungeonSlime.dll": {}
         }
       },
-      "MonoGame.Framework.DesktopGL/3.8.4.1": {
+      "MonoGame.Framework.DesktopGL/3.8.5-preview.2": {
         "dependencies": {
           "MonoGame.Library.OpenAL": "1.24.3.2",
-          "MonoGame.Library.SDL": "2.32.2.1",
+          "MonoGame.Library.SDL": "2.32.10.1",
           "NVorbis": "0.10.4"
         },
         "runtime": {
           "lib/net8.0/MonoGame.Framework.dll": {
-            "assemblyVersion": "3.8.4.1",
-            "fileVersion": "3.8.4.1"
+            "assemblyVersion": "3.8.5.0",
+            "fileVersion": "3.8.5.0"
           }
         }
       },
@@ -87,8 +87,13 @@
           }
         }
       },
-      "MonoGame.Library.SDL/2.32.2.1": {
+      "MonoGame.Library.SDL/2.32.10.1": {
         "runtimeTargets": {
+          "runtimes/linux-arm64/native/libSDL2-2.0.so.0": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
           "runtimes/linux-x64/native/libSDL2-2.0.so.0": {
             "rid": "linux-x64",
             "assetType": "native",
@@ -130,12 +135,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "MonoGame.Framework.DesktopGL/3.8.4.1": {
+    "MonoGame.Framework.DesktopGL/3.8.5-preview.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YybxIIT5+Ky78E/XdkS0glyluMr2EeDZwx2LqXULAOCqiKt1+aDrjPZaqLL5qpNgBcMEHUeZJ4YjWe4TAZlWLw==",
-      "path": "monogame.framework.desktopgl/3.8.4.1",
-      "hashPath": "monogame.framework.desktopgl.3.8.4.1.nupkg.sha512"
+      "sha512": "sha512-K+SOyZqbn0WJwjue0zAAUTDh8WQCpylH3+eP7akjjQR/nOs/vqSIfK+IGAGN5GwJC9zcN9vpac2sBGr2JghX8g==",
+      "path": "monogame.framework.desktopgl/3.8.5-preview.2",
+      "hashPath": "monogame.framework.desktopgl.3.8.5-preview.2.nupkg.sha512"
     },
     "MonoGame.Library.OpenAL/1.24.3.2": {
       "type": "package",
@@ -144,12 +149,12 @@
       "path": "monogame.library.openal/1.24.3.2",
       "hashPath": "monogame.library.openal.1.24.3.2.nupkg.sha512"
     },
-    "MonoGame.Library.SDL/2.32.2.1": {
+    "MonoGame.Library.SDL/2.32.10.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-T4E2ppGlSTC2L9US1rxtdg3qTbarRzNId31xZoumUW9cf9Nq8nRQPMu9GzvZGrhfSySf0+UWPEj1rlicps+P/w==",
-      "path": "monogame.library.sdl/2.32.2.1",
-      "hashPath": "monogame.library.sdl.2.32.2.1.nupkg.sha512"
+      "sha512": "sha512-mklIUC50O8y2zQ+BcT7tmnBrVT8ZQuHiODW3LxGWJ5UZIZM0PaePJfGuzZB9bSbdP3WvV+RtyvTfnMY7wz0f0w==",
+      "path": "monogame.library.sdl/2.32.10.1",
+      "hashPath": "monogame.library.sdl.2.32.10.1.nupkg.sha512"
     },
     "NVorbis/0.10.4": {
       "type": "package",
