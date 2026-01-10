@@ -1,0 +1,61 @@
+# Build results
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# MonoGame
+Content/bin/
+Content/obj/
+*.mgcb.json
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Build files
+*.log
+*.binlog
+*.dll
+*.exe
+*.pdb
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Rider
+.idea/
+*.sln.iml
+
+# JetBrains Rider
+.idea/
+*.sln.DotSettings.user
+
+# Package files
+*.nupkg
+*.snupkg
+packages/
+
+# Backup files
+*.bak
+*.cache
