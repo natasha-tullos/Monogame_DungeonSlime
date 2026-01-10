@@ -1,4 +1,4 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/Content/images/atlas-definition.xml","/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/Content/bin/DesktopGL/Content/images/atlas-definition.xml","CopyItem","File",271,271,0.001507
+"/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/Content/images/atlas-definition.xml","/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/Content/bin/DesktopGL/Content/images/atlas-definition.xml","CopyItem","File",893,893,0.000521
 "/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/Content/images/atlas.png","/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/Content/bin/DesktopGL/Content/images/atlas.xnb","TextureProcessor","Texture2DContent",590,16469,0.071033
 "/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/Content/images/logo.png","/Users/natrobarge/Desktop/dev/Monogame_DungeonSlime/Content/bin/DesktopGL/Content/images/logo.xnb","TextureProcessor","Texture2DContent",16734,311381,0.307973
