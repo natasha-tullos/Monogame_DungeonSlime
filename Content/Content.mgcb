@@ -42,3 +42,6 @@
 /processorParam:Version=3.8.5.0
 /build:images/logo.png
 
+#begin tilemap-definition.xml
+/copy:tilemap-definition.xml
+
