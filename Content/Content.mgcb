@@ -63,6 +63,20 @@
 /processorParam:Version=3.8.5.0
 /build:images/logo.png
 
+#begin fonts/04B_30.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:fonts/04B_30.spritefont
+
+#begin fonts/04B_30_5x.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:fonts/04B_30_5x.spritefont
+
 #begin tilemap-definition.xml
 /copy:tilemap-definition.xml
 
